@@ -1,0 +1,75 @@
+﻿
+Q1>
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary_bits
+{
+    public class Mathdemocl
+    {
+        public int sum(int x,int y) {
+            return x + y;
+        }
+    }
+}
+........................................................
+Q2.
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ClassLibrary1;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 a = new Class1();
+           int res= a.fact(5);
+            Console.WriteLine(res);
+                    }
+    }
+}
+
+// classLibray
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ClassLibrary1
+{
+    public class Class1
+    {
+
+        public int fact(int a)
+        {
+            int fact = 1;
+
+            for (int i = 1; i <= a; i++)
+            {
+                fact = fact * i;
+
+            }
+
+            return fact;
+
+
+        }
+    }
+}
+
+.............
+Q3>
+
+

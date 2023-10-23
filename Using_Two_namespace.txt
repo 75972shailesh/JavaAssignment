@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DAC
+{
+    internal class Student
+    {
+        public int Add(int a, int b)
+        {
+
+            return a + b;
+
+        }
+      
+
+    }
+   
+}
+namespace DBDA
+{
+
+    internal class Student
+    {
+
+        public int addition(int x,int y) { 
+        
+            return x + y;
+        }
+
+        public static void Main()
+        {
+            Student s2 = new Student();
+            int res=s2.addition(4, 5);
+            Console.WriteLine(res);
+
+            DAC.Student a = new DAC.Student();
+            int res1=a.Add(7, 5);
+            Console.WriteLine(res1);
+
+
+        }
+
+    }
+}

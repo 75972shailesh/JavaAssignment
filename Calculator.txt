@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Calculator
+{
+    internal class Calculator
+    {
+        public int add(int a,int b) {
+
+            return  a+b;
+        }
+        public int Product(int a,int b)
+        {
+            return a * b;
+        }
+
+        public static void Main()
+        {
+       Calculator calculator = new Calculator();
+            int res=calculator.add(1,2);
+          
+            int res1=calculator.Product(1,2);
+
+            Console.WriteLine("res{0}" + res +"res{1}"+res1);
+
+
+            
+        }
+    }
+}
