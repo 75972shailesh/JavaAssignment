@@ -1,3 +1,6 @@
+
+//Create a class student in namespace DAC and in namespace DBDA write method add in both class. In entry point call both method
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
