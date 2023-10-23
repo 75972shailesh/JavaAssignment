@@ -1,6 +1,7 @@
 ﻿
-Q1>
-//class Library 
+
+//Create class library with method fact() which will return factorial of a number. Use it in console application
+
 
 using System;
 using System.Collections.Generic;
